@@ -1,6 +1,7 @@
 # tesartech.FFmpegInteropX-NuGet
 
-![https://www.nuget.org/packages/tesartech.FFmpegInteropX](https://img.shields.io/nuget/v/tesartech.FFmpegInteropX.svg)
+[![tesartech.FFmpegInteropX-NuGet](https://img.shields.io/nuget/v/tesartech.FFmpegInteropX.svg)](https://www.nuget.org/packages/tesartech.FFmpegInteropX)
+
 
 NuGet specifications for creating tesartech.FFmpegInteropX package.
 
