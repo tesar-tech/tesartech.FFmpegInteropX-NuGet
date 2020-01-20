@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>tesartech.FFmpegInteropX</id>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <description>FFmpeg decoding library for Windows 10 UWP Apps. Unofficial package of FFmpegInteropX project (https://github.com/ffmpeginteropx/FFmpegInteropX).</description>
     <authors>tesar-tech</authors>
     <projectUrl>https://github.com/tesar-tech/tesartech.FFmpegInteropX-NuGet</projectUrl>
@@ -17,13 +17,13 @@
     <file src="..\FFmpegInteropX\ffmpeg\Build\Windows10\x64\include\**\*.h" target="include" />
     <file src="..\FFmpegInteropX\Release\FFmpegInterop\FFmpegInterop.winmd" target="lib\uap10.0" />
 
-    <file src="..\FFmpegInteropX\ffmpeg\Build\Windows10\x64\bin\*.dll"                      target="runtimes\win10-x64\native" />
-    <file src="..\FFmpegInteropX\ffmpeg\Build\Windows10\x64\bin\*.pdb"                      target="runtimes\win10-x64\native" />
-    <file src="..\FFmpegInteropX\Release\FFmpegInterop\FFmpegInterop.dll" target="runtimes\win10-x64\native" />
-    <file src="..\FFmpegInteropX\Release\FFmpegInterop\FFmpegInterop.pdb" target="runtimes\win10-x64\native" />
+    <file src="..\FFmpegInteropX\ffmpeg\Build\Windows10\x64\bin\*.dll" target="runtimes\win10-x64\native" />
+    <file src="..\FFmpegInteropX\ffmpeg\Build\Windows10\x64\bin\*.pdb"  target="runtimes\win10-x64\native" />
+    <file src="..\FFmpegInteropX\x64\Release\FFmpegInterop\FFmpegInterop.dll" target="runtimes\win10-x64\native" />
+    <file src="..\FFmpegInteropX\x64\Release\FFmpegInterop\FFmpegInterop.pdb" target="runtimes\win10-x64\native" />
 
-    <file src="..\FFmpegInteropX\ffmpeg\Build\Windows10\x86\bin\*.dll"                  target="runtimes\win10-x86\native" />
-    <file src="..\FFmpegInteropX\ffmpeg\Build\Windows10\x86\bin\*.pdb"                  target="runtimes\win10-x86\native" />
+    <file src="..\FFmpegInteropX\ffmpeg\Build\Windows10\x86\bin\*.dll"  target="runtimes\win10-x86\native" />
+    <file src="..\FFmpegInteropX\ffmpeg\Build\Windows10\x86\bin\*.pdb" target="runtimes\win10-x86\native" />
     <file src="..\FFmpegInteropX\Release\FFmpegInterop\FFmpegInterop.dll" target="runtimes\win10-x86\native" />
     <file src="..\FFmpegInteropX\Release\FFmpegInterop\FFmpegInterop.pdb" target="runtimes\win10-x86\native" />
 <!-- 
